@@ -6,7 +6,7 @@ const Footer = () => {
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <ul>
+            <ul className="you-l">
               <li class="title">My Account</li>
               <li>
                 <a href="https://fasbazar.com/my-account/">My account</a>
@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
           </div>
           <div class="col-sm-3">
-            <ul>
+            <ul className="you-l">
               <li class="title">Information</li>
 
               <li>
@@ -60,7 +60,7 @@ const Footer = () => {
             </ul>
           </div>
           <div class="col-sm-3">
-            <ul>
+            <ul className="you-l">
               <li class="title">Contact Info</li>
               <li>
                 <p>Sharjah saif zone</p>
@@ -93,7 +93,7 @@ const Footer = () => {
             </ul>
           </div>
           <div class="col-sm-3">
-            <ul>
+            <ul className="you-l">
               <li class="title">Create Account</li>
               <li>
                 <a href="https://fasbazar.com/my-account/">Login</a>
