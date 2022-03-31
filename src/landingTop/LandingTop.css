@@ -1,0 +1,87 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.scroll-up1 {
+  position: absolute;
+  right: 0.5%;
+  top: 1.5%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
+
+.upgo {
+  height: 50px;
+}
+
+.scroll-up2 {
+  position: absolute;
+  right: 0.5%;
+  top: 1.5%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c85c64;
+  opacity: 0.9;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  padding: 6px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  background-color: #ca686f;
+}
+
+.scroll-up3 {
+  position: absolute;
+  right: 1.8%;
+  top: 5%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1010px) {
+  .moon {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+}

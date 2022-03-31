@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.next-btn {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c85c64;
+  opacity: 0.9;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: max-content;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+  background-color: #ca686f;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
+
+.upgo {
+  height: 50px;
+}
+
+.scroll-up-bottom {
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 720px) {
+  .scroll-up-bottom {
+    display: none;
   }
 }
