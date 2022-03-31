@@ -2,6 +2,7 @@ import "./app.css";
 import LandingTop from "./landingTop/LandingTop";
 import Footer from "./components/footer/Footer";
 import Cards from "./components/cards/Cards";
+import Topbar from "./components/topbar/Topbar";
 
 function App() {
   function URL() {
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="my-app">
       <LandingTop />
+      <Topbar />
 
       <Cards />
       <div className="next-btn">
