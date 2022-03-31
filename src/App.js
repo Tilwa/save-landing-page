@@ -1,6 +1,6 @@
 import "./app.css";
 import LandingTop from "./landingTop/LandingTop";
-
+import Footer from "./components/footer/Footer";
 import Cards from "./components/cards/Cards";
 
 function App() {
@@ -52,6 +52,8 @@ function App() {
           onClick={callup}
         />
       </i>
+
+      <Footer />
     </div>
   );
 }
