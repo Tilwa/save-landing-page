@@ -23,14 +23,16 @@ const Topbar = () => {
         <a href="https://fasbazar.com/product-category/home/">Home</a>
         <a href="https://fasbazar.com/product-category/grocery/">Grocery</a>
         <a href="https://fasbazar.com/product-category/health-personal-care/">
-          Health & Personal Care
+          Health
         </a>
         <a href="https://fasbazar.com/product-category/mobile-phones/">
           Mobile Phones
         </a>
         <a href="https://fasbazar.com/product-category/perfumes-cosmetics/">
-          Perfumes & Cosmetics
+          Perfumes
         </a>
+        <a href="https://fasbazar.com/my-account/">LogIn</a>
+        <a href="https://fasbazar.com/my-account/">SignUp</a>
 
         <a href="javascript:void(0);" class="icon" onClick={myFunction}>
           &#9776;

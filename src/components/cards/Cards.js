@@ -5,7 +5,7 @@ const Cards = () => {
   const data = ProductData;
 
   const jumpLink = (x) => {
-    window.open(x.link, "_blank");
+    window.open(x.link, "_self");
   };
 
   return (

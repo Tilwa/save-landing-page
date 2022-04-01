@@ -3,7 +3,7 @@ import "./LandingTop.css";
 
 const LandingTop = () => {
   function URL() {
-    window.open("https://fasbazar.com/", "_blank");
+    window.open("https://fasbazar.com/", "_self");
   }
 
   return (

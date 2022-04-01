@@ -6,7 +6,7 @@ import Topbar from "./components/topbar/Topbar";
 
 function App() {
   function URL() {
-    window.open("https://fasbazar.com/", "_blank");
+    window.open("https://fasbazar.com/", "_self");
   }
 
   const callup = () => {
