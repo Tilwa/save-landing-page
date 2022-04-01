@@ -25,7 +25,6 @@ function App() {
     <div className="my-app">
       <LandingTop />
       <Topbar />
-
       <Cards />
       <div className="next-btn">
         <button
@@ -45,16 +44,14 @@ function App() {
           onClick={callup}
         />
       </i>
-
       <i class="scroll-up-bottom" id="scroll-up-bottom">
         <img
           src={require("./assets/abc.png")}
           width="25%"
           height="25%"
-          onClick={callup}
+          onClick={URL}
         />
       </i>
-
       <Footer />
     </div>
   );
