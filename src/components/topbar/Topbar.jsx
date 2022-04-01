@@ -13,23 +13,25 @@ const Topbar = () => {
   return (
     <div className="topbar">
       <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">
-          Home
+        <a href="https://fasbazar.com/" class="active">
+          Fasbazar
         </a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Dropdown
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div>
-        <a href="#about">About</a>
+        <a href="https://fasbazar.com/product-category/electronics/">
+          Electronics
+        </a>
+        <a href="https://fasbazar.com/product-category/fashion/">Fashion</a>
+        <a href="https://fasbazar.com/product-category/home/">Home</a>
+        <a href="https://fasbazar.com/product-category/grocery/">Grocery</a>
+        <a href="https://fasbazar.com/product-category/health-personal-care/">
+          Health & Personal Care
+        </a>
+        <a href="https://fasbazar.com/product-category/mobile-phones/">
+          Mobile Phones
+        </a>
+        <a href="https://fasbazar.com/product-category/perfumes-cosmetics/">
+          Perfumes & Cosmetics
+        </a>
+
         <a href="javascript:void(0);" class="icon" onClick={myFunction}>
           &#9776;
         </a>
