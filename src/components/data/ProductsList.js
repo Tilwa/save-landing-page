@@ -23,6 +23,15 @@ export const ProductData = [
     link: "https://fasbazar.com/product/ariel-downy-automatic-power-gel-laundry-detergent/",
   },
   {
+    id: 53,
+    offer: "17.64%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/04-1.jpg",
+    title: "Hans Hot Chocolate In Cup 6 Piece",
+    oldPrice: "AED8.50",
+    offerPrice: "AED7.00",
+    link: "https://fasbazar.com/product/hans-hot-chocolate-in-cup-6-piece/",
+  },
+  {
     id: 3,
     offer: "42.9%",
     img: "https://fasbazar.com/wp-content/uploads/2021/12/837E2416-CEA1-4052-9BF4-2CD121C99D17.jpeg",
@@ -54,6 +63,15 @@ export const ProductData = [
     oldPrice: "AED99.00",
     offerPrice: "AED45.00",
     link: "https://fasbazar.com/product/silver-rectangle-clutch/",
+  },
+  {
+    id: 51,
+    offer: "17.64%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/26-1.jpg",
+    title: "Hans Cappuccino Instant Coffee In Cup 6 Piece",
+    oldPrice: "AED8.50",
+    offerPrice: "AED7.00",
+    link: "https://fasbazar.com/product/hans-cappuccino-instant-coffee-in-cup-6-piece/",
   },
   {
     id: 6,
@@ -202,6 +220,15 @@ export const ProductData = [
     link: "https://fasbazar.com/product/saint-laurent-libre-80ml/",
   },
   {
+    id: 48,
+    offer: "10%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/aycafe-tea-stick-bag-ginger-2.jpg",
+    title: "Aycafe KarakTea Ginger Stick 30 Piece",
+    oldPrice: "AED15.50",
+    offerPrice: "AED13.95",
+    link: "https://fasbazar.com/product/aycafe-karaktea-ginger-stick-30-piece/",
+  },
+  {
     id: 21,
     offer: "31.2%",
     img: "https://fasbazar.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-28-at-10.28.31-PM-1.jpeg",
@@ -218,6 +245,15 @@ export const ProductData = [
     oldPrice: "AED536.00",
     offerPrice: "AED399.00",
     link: "https://fasbazar.com/product/givenchy-l-interdit-for-her-80-ml/",
+  },
+  {
+    id: 50,
+    offer: "17.64%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/24.jpg",
+    title: "Hans 3in1 Instant Coffee In Cup 6 Piece",
+    oldPrice: "AED8.50",
+    offerPrice: "AED7.00",
+    link: "https://fasbazar.com/product/hans-3in1-instant-coffee-in-cup-6-piece/",
   },
   {
     id: 23,
@@ -303,6 +339,15 @@ export const ProductData = [
     link: "https://fasbazar.com/product/black-mini-handbag/",
   },
   {
+    id: 49,
+    offer: "10%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/aycafe-tea-stick-bag-safron-2.jpg",
+    title: "Aycafe KarakTea Saffron Stick 30 Piece",
+    oldPrice: "AED15.50",
+    offerPrice: "AED13.95",
+    link: "https://fasbazar.com/product/aycafe-karaktea-saffron-stick-30-piece/",
+  },
+  {
     id: 33,
     offer: "57.5%",
     img: "https://fasbazar.com/wp-content/uploads/2021/12/Lip-Art-Graphic-Lipstick.jpg",
@@ -347,6 +392,15 @@ export const ProductData = [
     oldPrice: "AED24.49",
     offerPrice: "AED11.75",
     link: "https://fasbazar.com/product/pearl-clutch/",
+  },
+  {
+    id: 54,
+    offer: "17.64%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/16.jpg",
+    title: "Hans KarakTea Saffron Instant Tea In Cup 6 Piece",
+    oldPrice: "AED8.50",
+    offerPrice: "AED7.00",
+    link: "https://fasbazar.com/product/hans-karaktea-saffron-instant-tea-in-cup-6-piece/",
   },
   {
     id: 37,
@@ -395,6 +449,16 @@ export const ProductData = [
     link: "https://fasbazar.com/product/irresistible-for-her-80ml/",
   },
   {
+    id: 52,
+    offer: "17.64%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/02-1.jpg",
+    title: "Hans Cappuccino Instant Coffee In Cup 6 Piece",
+    oldPrice: "AED8.50",
+    offerPrice: "AED7.00",
+    link: "https://fasbazar.com/product/hans-latte-instant-coffee-in-cup-6-piece/",
+  },
+
+  {
     id: 44,
     offer: "43.9%",
     img: "https://fasbazar.com/wp-content/uploads/2021/12/71ZVt6SkX6L._AC_SL1000_.jpg",
@@ -421,5 +485,14 @@ export const ProductData = [
     oldPrice: "AED500.00",
     offerPrice: "AED299.00",
     link: "https://fasbazar.com/product/dolce-and-gabanna-the-one-for-men-100ml-travel-size-10ml/",
+  },
+  {
+    id: 47,
+    offer: "10%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/aycafe-tea-stick-bag-orjinal-2.jpg",
+    title: "Aycafe Karak Tea Original Stick 30 Peice",
+    oldPrice: "AED15.50",
+    offerPrice: "AED13.95",
+    link: "https://fasbazar.com/product/aycafe-karak-tea-original-stick-30-peice/",
   },
 ];

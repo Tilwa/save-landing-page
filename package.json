@@ -1,5 +1,6 @@
 {
   "name": "landing-page",
+  "homepage": "http://offers.fasbazar.com/checking",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
