@@ -25,7 +25,7 @@ export const ProductData = [
   {
     id: 53,
     offer: "17.64%",
-    img: "https://fasbazar.com/wp-content/uploads/2021/11/04-1.jpg",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/03-1.jpg",
     title: "Hans Hot Chocolate In Cup 6 Piece",
     oldPrice: "AED8.50",
     offerPrice: "AED7.00",
@@ -67,7 +67,7 @@ export const ProductData = [
   {
     id: 51,
     offer: "17.64%",
-    img: "https://fasbazar.com/wp-content/uploads/2021/11/26-1.jpg",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/28.jpg",
     title: "Hans Cappuccino Instant Coffee In Cup 6 Piece",
     oldPrice: "AED8.50",
     offerPrice: "AED7.00",
@@ -451,8 +451,8 @@ export const ProductData = [
   {
     id: 52,
     offer: "17.64%",
-    img: "https://fasbazar.com/wp-content/uploads/2021/11/02-1.jpg",
-    title: "Hans Cappuccino Instant Coffee In Cup 6 Piece",
+    img: "https://fasbazar.com/wp-content/uploads/2021/11/01-1.jpg",
+    title: "Hans Latte Instant Coffee In Cup 6 Piece",
     oldPrice: "AED8.50",
     offerPrice: "AED7.00",
     link: "https://fasbazar.com/product/hans-latte-instant-coffee-in-cup-6-piece/",
